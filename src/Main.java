@@ -1,5 +1,4 @@
 import company.*;
-
 import java.util.Objects;
 import java.util.Scanner;
 public class Main {
@@ -27,10 +26,8 @@ public class Main {
 
         // Imprimir los datos del empleado
         System.out.println("\nDatos del empleado\n" + empleado);
-        System.out.println("Nivel " + empleado.obtenerNivel());
 
         // Imprimir los datos del programador
         System.out.println("Datos del programador\n"+ programador);
-        System.out.println("Nivel " + programador.obtenerNivel());
     }
 }
